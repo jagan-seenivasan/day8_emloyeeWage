@@ -25,7 +25,7 @@ namespace Employee_Wages_usingObject
                 empHrs = 8;
             
             empWage = empHrs * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Emp Wage: " + empWage);
+            Console.WriteLine("Employee Wage: " + empWage);
             Console.ReadKey();
 
         }
