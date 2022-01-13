@@ -17,7 +17,7 @@ namespace Employee_Wages_usingObject
                 int empRatePerHr = 20;
                 int empHrs = 8;
                 int salary = (empRatePerHr * empHrs);
-                Console.WriteLine("Employee Daily Salary is " + salary);
+                Console.WriteLine("Employeee Daily Salary is " + salary);
             }
             else
             {
