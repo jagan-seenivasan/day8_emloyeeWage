@@ -6,52 +6,40 @@ namespace Employee_Wages_usingObject
     {
         static void Main(string[] args)
         {
-       //     UC1_EmpCheck Uc1 = new UC1_EmpCheck();
-        //    UC1_EmpCheck.CheckEmployee();
-        //    UC2_DailyWage Uc2 = new UC2_DailyWage();
-        //    UC2_DailyWage.CheckDailySalary();
-        //    UC3_PartTimeEmpAndWage Uc3 = new UC3_PartTimeEmpAndWage();
-         //   UC3_PartTimeEmpAndWage.CheckPartTimeEmpWage();
-        //    UC4_PartTimeEmpWage_usingSwitch Uc4 = new UC4_PartTimeEmpWage_usingSwitch();
-        //    UC4_PartTimeEmpWage_usingSwitch.CheckEmpWageUsingSwitch();
-        //    UC5_CalculateEmpSalaryForMonth Uc5 = new UC5_CalculateEmpSalaryForMonth();
-        //    UC5_CalculateEmpSalaryForMonth.CheckFor20DaysInMonth();
-        //    UC6_SalaryForTotalWorkingHrs100_OrMonthsOf20 Uc6 = new UC6_SalaryForTotalWorkingHrs100_OrMonthsOf20();
-         //   UC6_SalaryForTotalWorkingHrs100_OrMonthsOf20.CheckUC6_SalaryForTotalWorkingHrs100_OrMonthsOf20();
-          
-            uc7
+            
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the program number which is to be executed \n 1.UC-1, \n 2.UC-2, \n 3.UC-3, \n 4.UC-4, \n 5.UC-5, \n 6.UC-6, \n 7.UC-7, \n 8.Exit");
+                Console.WriteLine("----------------------\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
                     case 1:
-                        UC1_CheckEmployee uc1 = new UC1_CheckEmployee();
-                        uc1.GetAttendance();
+                         UC1_EmpCheck uc1 = new  UC1_EmpChecke();
+                        uc1.CheckDailySalary();
                         break;
                     case 2:
-                        EmployeeWageComputationProblem.UC2_DailyEmployeeWage uc2 = new UC2_DailyEmployeeWage();
+                        Employee_Wages_usingObject.UC2_DailyWage uc2 = new UC2_DailyWage();
                         uc2.EmpDailyWage();
                         break;
                     case 3:
-                        EmployeeWageComputationProblem.UC3_PartTimeEmployeeWage uc3 = new UC3_PartTimeEmployeeWage();
-                        uc3.PartTimeEmpWage();
+                        Employee_Wages_usingObject.UC3_PartTimeEmpAndWage uc3 = new UC3_PartTimeEmpAndWage();
+                        uc3.CheckPartTimeEmpWage();
                         break;
                     case 4:
-                        EmployeeWageComputationProblem.UC4_UsingSwitchCase uc4 = new UC4_UsingSwitchCase();
-                        uc4.EmpWageUsingSwitch();
+                        Employee_Wages_usingObject.UC4_PartTimeEmpWage_usingSwitch  uc4 = new UC4_PartTimeEmpWage_usingSwitch ();
+                        uc4.CheckEmpWageUsingSwitch();
                         break;
                     case 5:
-                        EmployeeWageComputationProblem.UC5_MonthlyWages uc5 = new UC5_MonthlyWages();
-                        uc5.CalculateWages();
+                       Employee_Wages_usingObject.UC5_CalculateEmpSalaryForMonth uc5 = new UC5_CalculateEmpSalaryForMonth();
+                        uc5.CheckFor20DaysInMonth();
                         break;
                     case 6:
-                        EmployeeWageComputationProblem.UC6_TotalWorkingHours uc6 = new UC6_TotalWorkingHours();
-                        uc6.CalculateWageTill100HrsOr20IsReached();
+                        Employee_Wages_usingObject.UC6_SalaryForTotalWorkingHrs100_OrMonthsOf20 uc6 = new UC6_SalaryForTotalWorkingHrs100_OrMonthsOf20();
+                        uc6.CheckUC6_SalaryForTotalWorkingHrs100_OrMonthsOf20();
                         break;
                     case 7:
+                        Employee_Wages_usingObject.UC7_RefactorTheCodeUsingClass uc7 = new UC7_RefactorTheCodeUsingClass
                         UC7_RefactorTheCodeUsingClass.ComputeEmpWage();
                         break;
                     case 8:
