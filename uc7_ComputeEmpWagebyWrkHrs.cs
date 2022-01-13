@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeeWageComputationProblem
 {
-    class UC7_RefactorTheCodeUsingClassMethod
+    class UC7_RefactorTheCodeUsingClass
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
