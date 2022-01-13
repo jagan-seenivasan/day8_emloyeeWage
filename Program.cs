@@ -52,7 +52,7 @@ namespace Employee_Wages_usingObject
                         uc6.CalculateWageTill100HrsOr20IsReached();
                         break;
                     case 7:
-                        UC7_RefactorTheCodeUsingClassMethod.ComputeEmpWage();
+                        UC7_RefactorTheCodeUsingClass.ComputeEmpWage();
                         break;
                     case 8:
                         flag = false;
